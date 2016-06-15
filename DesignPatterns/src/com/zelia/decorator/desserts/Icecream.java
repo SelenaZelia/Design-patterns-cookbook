@@ -1,4 +1,6 @@
-package com.zelia.decorator;
+package com.zelia.decorator.desserts;
+
+import com.zelia.decorator.AbstractDessert;
 
 /*
  * Icecream dessert

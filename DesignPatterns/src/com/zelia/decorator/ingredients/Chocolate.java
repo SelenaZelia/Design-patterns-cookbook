@@ -1,4 +1,7 @@
-package com.zelia.decorator;
+package com.zelia.decorator.ingredients;
+
+import com.zelia.decorator.AbstractDessert;
+import com.zelia.decorator.IngredientDecorator;
 
 /*
  * A chocolate decorator

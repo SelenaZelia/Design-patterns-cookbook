@@ -1,5 +1,10 @@
 package com.zelia.decorator;
 
+import com.zelia.decorator.desserts.Icecream;
+import com.zelia.decorator.desserts.Pancake;
+import com.zelia.decorator.ingredients.Chocolate;
+import com.zelia.decorator.ingredients.Strawberry;
+
 /*
  * The decorator pattern is useful to add functionalities (decorate)
  * objects, without editing the class itself.
