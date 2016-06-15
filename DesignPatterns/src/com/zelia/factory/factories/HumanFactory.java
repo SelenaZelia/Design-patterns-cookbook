@@ -6,7 +6,15 @@ import com.zelia.factory.unites.UniteRogue;
 import com.zelia.factory.unites.UniteSoldier;
 import com.zelia.factory.unites.UniteType;
 
+/**
+ * A human factory
+ * @author Alex
+ *
+ */
 public class HumanFactory extends AbstractBuildingFactory {
+	/**
+	 * Creates a new human unite (used in "enrollUnite")
+	 */
 	@Override
 	protected AbstractUnite createUnite(UniteType type){
 		AbstractUnite unite = null;

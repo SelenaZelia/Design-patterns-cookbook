@@ -2,6 +2,11 @@ package com.zelia.factory.unites;
 
 import com.zelia.factory.AbstractUnite;
 
+/**
+ * A rogue human unite
+ * @author Alex 
+ *
+ */
 public class UniteRogue extends AbstractUnite{
 
 	public UniteRogue() {
