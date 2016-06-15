@@ -24,6 +24,12 @@ More pattern examples are still under development :)
 - **Decorator pattern** : 
   - Dynamically adds/overrides behaviour in an existing method of an object
   - Illustrated by a dessert + ingredient name and price printing
+  
+### Behavorial
+
+- **Observer pattern** : 
+  - An object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes. Used mainly for event handling
+  - Illustrated by a GPS notifying display on position/precision changes
 
 ## What's next ?
 
