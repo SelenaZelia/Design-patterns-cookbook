@@ -1,10 +1,24 @@
 # Design-Patterns---java 
 
-## Done
+## How to
 
-- **Factory design pattern** : illustrated by a RTS units creation system
-- **Singleton design pattern** : using 3 different approaches (unsafe for threading, safe for threading and safe for threading using synchronized)
-- **Decorator pattern** : illustrated by a dessert + ingredient name and price printing
+You can pull the entire project to retrieve every patterns examples, or simply check in the pattern folder. 
 
-## Todo
-- **Observator**
+**Every pattern's main class (containing the main method) use this format : #name#Pattern (e.g factoryPattern)**
+
+## What's already done ?
+
+### Creational
+
+- **Factory design pattern** : 
+  - Creates objects without specifying the exact class to create
+  - *Illustrated by a RTS units creation system*
+- **Singleton design pattern** : 
+  - Restricts object creation for a class to only one instance
+  - Using 3 different approaches (unsafe for threading, safe for threading and safe for threading using synchronized)
+
+### Structural
+
+- **Decorator pattern** : 
+  - Dynamically adds/overrides behaviour in an existing method of an object
+  - Illustrated by a dessert + ingredient name and price printing
