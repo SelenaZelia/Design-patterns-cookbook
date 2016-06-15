@@ -24,3 +24,9 @@ More pattern examples are still under development :)
 - **Decorator pattern** : 
   - Dynamically adds/overrides behaviour in an existing method of an object
   - Illustrated by a dessert + ingredient name and price printing
+
+## What's next ?
+
+- [ ] Examples of the main [Gang of Four's](https://en.wikipedia.org/wiki/Design_Patterns) design patterns
+- [ ] Populate the project's wiki with a definition & link of every design pattern (searching in packages is a pain)
+- [ ] Add other languages (C#, C++, you call it)
