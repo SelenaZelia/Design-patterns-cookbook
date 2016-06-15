@@ -1,8 +1,8 @@
 package com.zelia.factory;
 
 import com.zelia.factory.factories.HumanFactory;
-import com.zelia.factory.unites.UniteType;
-
+import com.zelia.factory.units.UnitType;
+ 
 /*
  * Factory pattern :
  * -----------------
@@ -12,11 +12,11 @@ import com.zelia.factory.unites.UniteType;
  * class defer instantiation it uses to 
  * subclasses.
  * 
- * > Every unit inherits from AbstractUnite
+ * > Every unit inherits from AbstractUnit
  * > Every factory inherits from AbstractBuildingFactory
- * > To add a new unite :
- *   - Add a 'name' in the UniteType enum
- *   - Create a new UniteX class, extending AbstractUnite
+ * > To add a new unit :
+ *   - Add a 'name' in the UnitType enum
+ *   - Create a new unitX class, extending AbstractUnit
  *   - Add the instanciation in an existing factory (like HumanFactory)
  *     or create a new factory extending AbstractBuildingFactory
  */
@@ -24,10 +24,10 @@ public class FactoryPattern {
 	public static void main(String[] args) {
 		HumanFactory hf = new HumanFactory();
 		
-		AbstractUnite unite = hf.enrollUnite(UniteType.Soldier);
-		System.out.println(unite.getName());
+		AbstractUnit unit = hf.enrollunit(UnitType.Soldier);
+		System.out.println(unit.getName());
 		
-		AbstractUnite unite2 = hf.enrollUnite(UniteType.Rogue);
-		System.out.println(unite2.getName());
+		AbstractUnit unit2 = hf.enrollunit(UnitType.Rogue);
+		System.out.println(unit2.getName());
 	}
 }

@@ -1,24 +1,24 @@
 package com.zelia.factory;
 
-import com.zelia.factory.unites.UniteType;
+import com.zelia.factory.units.UnitType;
 
 /**
- * Abstract class used by every unite building factory
+ * Abstract class used by every unit building factory
  * @author Alex
  *
  */
 public abstract class AbstractBuildingFactory {
 	/**
-	 * Instantiate a new unite
-	 * @param type The type of unite
-	 * @return The instantiated unite
+	 * Instantiate a new unit
+	 * @param type The type of unit
+	 * @return The instantiated unit
 	 */
-	public final AbstractUnite enrollUnite(UniteType type){
-		AbstractUnite unite = createUnite(type);
-		unite.doSomething();
-		return unite;
+	public final AbstractUnit enrollunit(UnitType type){
+		AbstractUnit unit = createunit(type);
+		unit.doSomething();
+		return unit;
 	}
 	
-	protected abstract AbstractUnite createUnite(UniteType type);
+	protected abstract AbstractUnit createunit(UnitType type);
 }
 

@@ -1,10 +1,10 @@
 package com.zelia.factory.factories;
 
 import com.zelia.factory.AbstractBuildingFactory;
-import com.zelia.factory.AbstractUnite;
-import com.zelia.factory.unites.UniteRogue;
-import com.zelia.factory.unites.UniteSoldier;
-import com.zelia.factory.unites.UniteType;
+import com.zelia.factory.AbstractUnit;
+import com.zelia.factory.units.UnitRogue;
+import com.zelia.factory.units.UnitSoldier;
+import com.zelia.factory.units.UnitType;
 
 /**
  * A human factory
@@ -13,17 +13,17 @@ import com.zelia.factory.unites.UniteType;
  */
 public class HumanFactory extends AbstractBuildingFactory {
 	/**
-	 * Creates a new human unite (used in "enrollUnite")
+	 * Creates a new human unit (used in "enrollunit")
 	 */
 	@Override
-	protected AbstractUnite createUnite(UniteType type){
-		AbstractUnite unite = null;
+	protected AbstractUnit createunit(UnitType type){
+		AbstractUnit unit = null;
 		
 		switch(type){
-		case Soldier: unite = new UniteSoldier();break;
-		case Rogue  : unite = new UniteRogue();break;
+		case Soldier: unit = new UnitSoldier();break;
+		case Rogue  : unit = new UnitRogue();break;
 		}
 		
-		return unite;
+		return unit;
 	}
 }

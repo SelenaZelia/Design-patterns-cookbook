@@ -1,11 +1,11 @@
 package com.zelia.factory;
 
 /**
- * Abstract class used by every unite
+ * Abstract class used by every unit
  * @author Alex
  *
  */
-public abstract class AbstractUnite {
+public abstract class AbstractUnit {
 	protected String name;
 	
 	public String getName(){
