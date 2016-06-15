@@ -1,10 +1,12 @@
 # Design-Patterns---java 
 
-## How to
+## About
 
 You can pull the entire project to retrieve every patterns examples, or simply check in the pattern folder. 
 
 **Every pattern's main class (containing the main method) use this format : #name#Pattern (e.g factoryPattern)**
+
+More pattern examples are still under development :)
 
 ## What's already done ?
 
