@@ -17,7 +17,7 @@ import com.zelia.factory.units.UnitType;
  * > To add a new unit :
  *   - Add a 'name' in the UnitType enum
  *   - Create a new unitX class, extending AbstractUnit
- *   - Add the instanciation in an existing factory (like HumanFactory)
+ *   - Add the instantiation in an existing factory (like HumanFactory)
  *     or create a new factory extending AbstractBuildingFactory
  */
 public class FactoryPattern {
