@@ -32,7 +32,7 @@ It is not a finished design that can be transformed directly into source or mach
   - Restricts object creation for a class to only one instance
   - Using 3 different approaches (unsafe for threading, safe for threading and safe for threading using synchronized)
   
-![factory pattern uml](DesignPatterns/src/com/zelia/singleton/SingletonUML.jpeg) 
+![singleton pattern uml](DesignPatterns/src/com/zelia/singleton/SingletonUML.jpeg) 
 
 ### Structural
 
@@ -41,6 +41,8 @@ It is not a finished design that can be transformed directly into source or mach
 [link to package](DesignPatterns/src/com/zelia/decorator)
   - Dynamically adds/overrides behaviour in an existing method of an object
   - Illustrated by a dessert + ingredient name and price printing
+  
+![decorator pattern uml](DesignPatterns/src/com/zelia/decorator/DecoratorUML.jpeg) 
   
 ### Behavorial
 
