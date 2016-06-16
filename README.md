@@ -23,6 +23,7 @@ It is not a finished design that can be transformed directly into source or mach
 [link to package](DesignPatterns/src/com/zelia/factory)
   - Creates objects without specifying the exact class to create
   - *Illustrated by a RTS units creation system*
+  
 ![factory pattern uml](DesignPatterns/src/com/zelia/factory/FactoryUML.jpeg) 
   
 #### Singleton design pattern
@@ -30,6 +31,8 @@ It is not a finished design that can be transformed directly into source or mach
 [link to package](DesignPatterns/src/com/zelia/singleton)
   - Restricts object creation for a class to only one instance
   - Using 3 different approaches (unsafe for threading, safe for threading and safe for threading using synchronized)
+  
+![factory pattern uml](DesignPatterns/src/com/zelia/singleton/SingletonUML.jpeg) 
 
 ### Structural
 
