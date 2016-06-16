@@ -51,6 +51,8 @@ It is not a finished design that can be transformed directly into source or mach
 [link to package](DesignPatterns/src/com/zelia/observer)
   - An object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes. Used mainly for event handling
   - Illustrated by a GPS notifying display on position/precision changes
+  
+![observer pattern uml](DesignPatterns/src/com/zelia/observer/ObserverUML.jpeg) 
 
 ## What's next ?
 
